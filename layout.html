@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.left {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.right {
+  right: 0;
+  padding: 0;
+  width: 10%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.left a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.left a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.left a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  margin-right: 10%;
+  padding: 7px 7px 7px 7px;
+  height: 100%;
+}
+.right a {
+  padding: 6px 8px 36px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+.seta{
+position: fixed;
+bottom: 10px
+}
+#menu{
+font-size:30px;
+cursor:pointer;
+display:none;
+}
+@media screen and (max-width: 700px) {
+  .left {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .right {
+    width: 100;
+    height: 40px;
+    left: 0;
+  bottom: 0;
+  width: 100%;
+  }
+  .seta{
+position: fixed;
+bottom: -30px;
+display:block;
+margin-left: 90%;
+}
+.home{
+position: fixed;
+bottom: -30px;
+display:block;
+margin-left: 10%;
+}
+
+#menu{
+font-size:30px;
+cursor:pointer;
+display:block;
+margin-left: 50%;
+}
+  .left a {float: left;}
+  div.content {margin-left: 0;}
+  
+  .left{
+height: 40px;
+}
+ #esconder {
+
+  display: none;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+</style>
+</head>
+<body>
+
+<div class="left" >
+  <a id="esconder" href="#home">Home</a>
+  <a id="esconder" href="#news">News</a>
+  <a id="esconder" href="#contact">Contact</a>
+  <a id="esconder" href="#about">About</a>
+</div>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">Home</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+  </div>
+</div>
+
+<div class="right">
+<span id="menu"  onclick="openNav()">&#9776</span>
+  <a href="#home" class="home"><i class="fa fa-fw fa-home"></i> </a>
+  <a id="esconder" href="#services"><i class="fa fa-fw fa-wrench"></i> </a>
+  <a id="esconder" href="#clients"><i class="fa fa-fw fa-user"></i> </a>
+  <a  href="#" class="seta"><i class="fa fa-fw fa-arrow-up"></i> </a>
+</div>
+<div class="content">
+  <h2>Layout Responsive</h2>
+  <p>Criando um layout adaptativo.</p>
+  <p>Esqueleto do layout</p>
+  <h3>Ao redimensionar a janela, trocar a posição dos itens.</h3>
+</div>
+
+</body>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+</html>

@@ -1,0 +1,9 @@
+<ol>
+<!--webbot bot="Include" U-Include="wom.html" TAG="BODY" startspan -->
+
+<p></p><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Um bispo deve ter apenas uma esposa. </font><font style="vertical-align: inherit;">Acho que não há problema em leigos terem vários.
+ </font></font><span="1.html#6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1: 6-7</font></font></a>
+
+<p></p></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Ensine as moças a serem ... obedientes aos próprios maridos." </font></font><span="2.html#4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2: 4-5</font></font></a>
+
+<!--webbot bot="Include" i-checksum="54670" endspan --></li></ol>

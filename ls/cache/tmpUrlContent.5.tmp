@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .media.pull-left {
+        margin-right: 10px;
+      }
+      .media.pull-right {
+        margin-left: 10px;
+      }
+
+      code,pre {display:block;color:#088A08;margin:10px;overflow:auto;}
+      h4 {margin: 15px 0;}
+      .table.table-width-auto {width:auto;}
+      .text-right,td.text-right {text-align: right}	  .tabcontentblog {
+
+  padding: 0px 12px;
+  border: 0px solid #ccc;
+  width: 80%;
+   height: 100%;
+  border-left: none;
+   text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  
+}
+	  @media only screen and (max-width: 600px)
+{
+    .tabcontentblog{
+		 width: 100%;
+	}
+  .anuncios {
+        opacity: 0; /* desaparece no mobile. */
+         overflow: hidden;
+          display: none;
+    }
+    
+    
+}
+    </style>
+
+      <title>CeuVago  Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" type="text/css" />
+    <link rel="stylesheet" href="ls/livesearch.css" type="text/css" />
+
+    <script type="text/javascript" src="js/jquery.1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+ <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+
+   <div class="navbar navbar-inverse navbar-fixed-top " >
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.php"> <small>CeuVago</small></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li ><a href="http://localhost/novoblog/index.php">Inicio</a></li>
+              <li ><a href="http://localhost/novoblog/deuses.php">Deuses</a></li>
+              <li ><a href="http://localhost/novoblog/religioes.php">ReligiÃµes</a></li>
+			  <li ><a href="http://localhost/novoblog/biblia.php">BÃ­blia</a></li>
+              <li ><a href="http://localhost/novoblog/busca.php">Procurar</a></li>
+              <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ReligiÃµes <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li class='active'><a href="http://localhost/novoblog/gallery.php">Gallery Page</a></li>
+                  <li ><a href="http://localhost/novoblog/downloads.php">Download Page</a></li>
+                  <li ><a href="http://localhost/novoblog/sample1.php">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Next Section</li>
+                  <li ><a href="http://localhost/novoblog/sample2.php">Another Site</a></li>
+                  <li ><a href="http://localhost/novoblog/sample3.php">And the last one</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- theSearchForm [+] -->
+            <form class="navbar-form pull-right" action="http://localhost/novoblog/busca.php">
+              <div class="input-append">
+                <input type="text" name="q" class="span4" value="" placeholder="Procurar no Site ..."/>
+                <button class="btn" type="submit"><i class='icon-search'></i> Procurar</button>
+              </div>
+            </form>
+            <!-- theSearchForm [-] -->
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="page-header">
+        <h2>Just another sample Page</h2>
+      </div>
+      <div class="row">
+        <div class="span8">
+          <h3>Gallery Windows Sample Pics</h3>
+            <ul class="thumbnails">
+              <li class="span2"><a href="galpics/Chrysanthemum.jpg" class="thumbnail"><img class="img-rounded" alt="Chrysanthemum" title="Wucherblume" src="galpics/Chrysanthemum.jpg" /></a></li>
+              <li class="span2"><a href="galpics/Desert.jpg" class="thumbnail"><img src="galpics/Desert.jpg" alt="Desert" title="Wüste" /></a></li>
+              <li class="span2"><a href="galpics/Hydrangeas.jpg" class="thumbnail"><img src="galpics/Hydrangeas.jpg" alt="Hydrangeas" title="Hydrangea" /></a></li>
+              <li class="span2"><a href="galpics/Jellyfish.jpg" class="thumbnail"><img src="galpics/Jellyfish.jpg" alt="Jellyfish" title="Qualle" /></a></li>
+              <li class="span2"><a href="galpics/Koala.jpg" class="thumbnail"><img src="galpics/Koala.jpg" alt="Koala" title="Koala" /></a></li>
+              <li class="span2"><a href="galpics/Lighthouse.jpg" class="thumbnail"><img src="galpics/Lighthouse.jpg" alt="Lighthouse" title="Leuchtturm" /></a></li>
+              <li class="span2"><a href="galpics/Penguins.jpg" class="thumbnail"><img src="galpics/Penguins.jpg" alt="Penguins" title="Pinguine" /></a></li>
+              <li class="span2"><a href="galpics/Tulips.jpg" class="thumbnail"><img src="galpics/Tulips.jpg" alt="Tulips" title="Tulpen" /></a></li>
+            </ul>
+
+          <h3>Gallery Easter Egg Heads</h3>
+            <ul class="thumbnails">
+              <li class="span4"><a href="galpics/DSC_0525.jpg" class="thumbnail"><img src="galpics/DSC_0525.jpg" alt="Easter 2010"></a></li>
+              <li class="span2"><a href="galpics/DSC_0526.jpg" class="thumbnail"><img src="galpics/DSC_0526.jpg" alt="Easter 2011"></a></li>
+              <li class="span2"><a href="galpics/DSC_0527.jpg" class="thumbnail"><img src="galpics/DSC_0527.jpg" alt="Easter 2010"></a></li>
+              <li class="span2"><a href="galpics/DSC_0529.jpg" class="thumbnail"><img src="galpics/DSC_0529.jpg" alt="Easter 2010"></a></li>
+              <li class="span2"><a href="galpics/DSC_0530.jpg" class="thumbnail"><img src="galpics/DSC_0530.jpg" alt="Easter 2013"></a></li>
+              <li class="span2"><a href="galpics/DSC_0528.jpg" class="thumbnail"><img src="galpics/DSC_0528.jpg" alt="Easter 2013"></a></li>
+              <li class="span2"><a href="galpics/DSC_0531.jpg" class="thumbnail"><img src="galpics/DSC_0531.jpg" alt="Easter 2011"></a></li>
+              <li class="span2"><a href="galpics/DSC_0532.jpg" class="thumbnail"><img src="galpics/DSC_0532.jpg" alt="Easter 2010"></a></li>
+              <li class="span2"><a href="http://www.homac.at/tn2353s21.jpg" class="thumbnail"><img src="http://www.homac.at/tn2353s21.jpg" alt="rent your page"></a></li>
+            </ul>
+
+        </div>
+
+          <div class='span4'>
+            <h3>Images can be found too</h3>
+            <p>Just search for: <i>Chrysanthemum, Wucherblume, Desert, Wüste, Hydrangeas, Hydrangea, Jellyfish, Qualle, Koala, Lighthouse, Leuchtturm, Penguins, Pinguine, Tulips, Tulpen, Easter, Easter 2010, Easter 2011, Easter 2013</i><br />On other pages: <i>firefox, envato</i></p>
+          </div>
+
+        </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+
+    </div>
+
+
+  </body>
+</html>

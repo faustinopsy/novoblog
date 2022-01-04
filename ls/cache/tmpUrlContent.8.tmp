@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .media.pull-left {
+        margin-right: 10px;
+      }
+      .media.pull-right {
+        margin-left: 10px;
+      }
+
+      code,pre {display:block;color:#088A08;margin:10px;overflow:auto;}
+      h4 {margin: 15px 0;}
+      .table.table-width-auto {width:auto;}
+      .text-right,td.text-right {text-align: right}	  .tabcontentblog {
+
+  padding: 0px 12px;
+  border: 0px solid #ccc;
+  width: 80%;
+   height: 100%;
+  border-left: none;
+   text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  
+}
+	  @media only screen and (max-width: 600px)
+{
+    .tabcontentblog{
+		 width: 100%;
+	}
+  .anuncios {
+        opacity: 0; /* desaparece no mobile. */
+         overflow: hidden;
+          display: none;
+    }
+    
+    
+}
+    </style>
+
+      <title>CeuVago  Sample Page #2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" type="text/css" />
+    <link rel="stylesheet" href="ls/livesearch.css" type="text/css" />
+
+    <script type="text/javascript" src="js/jquery.1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+ <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+
+   <div class="navbar navbar-inverse navbar-fixed-top " >
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.php"> <small>CeuVago</small></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li ><a href="http://localhost/novoblog/index.php">Inicio</a></li>
+              <li ><a href="http://localhost/novoblog/deuses.php">Deuses</a></li>
+              <li ><a href="http://localhost/novoblog/religioes.php">ReligiÃµes</a></li>
+			  <li ><a href="http://localhost/novoblog/biblia.php">BÃ­blia</a></li>
+              <li ><a href="http://localhost/novoblog/busca.php">Procurar</a></li>
+              <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ReligiÃµes <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li ><a href="http://localhost/novoblog/gallery.php">Gallery Page</a></li>
+                  <li ><a href="http://localhost/novoblog/downloads.php">Download Page</a></li>
+                  <li ><a href="http://localhost/novoblog/sample1.php">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Next Section</li>
+                  <li class='active'><a href="http://localhost/novoblog/sample2.php">Another Site</a></li>
+                  <li ><a href="http://localhost/novoblog/sample3.php">And the last one</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- theSearchForm [+] -->
+            <form class="navbar-form pull-right" action="http://localhost/novoblog/busca.php">
+              <div class="input-append">
+                <input type="text" name="q" class="span4" value="" placeholder="Procurar no Site ..."/>
+                <button class="btn" type="submit"><i class='icon-search'></i> Procurar</button>
+              </div>
+            </form>
+            <!-- theSearchForm [-] -->
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="page-header">
+        <h2>Sample Page #2</h2>
+      </div>
+      <div class="row">
+        <div class="span12">
+          <h3>Auch gibt es niemanden, der den Schmerz an sich liebt, ...</h3>
+            <p><img src='img/firefox.png' class='pull-right img-polaroid media' alt='foxfire' />... sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können. Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlicher Betätigung, außer um Vorteile daraus zu ziehen? Aber wer hat irgend ein Recht, einen Menschen zu tadeln, der die Entscheidung trifft, eine Freude zu genießen, die keine unangenehmen Folgen hat, oder einen, der Schmerz vermeidet, welcher keine daraus resultierende Freude nach sich zieht? Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können.</p>
+
+          <p>Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlicher Betätigung, außer um Vorteile daraus zu ziehen? Aber wer hat irgend ein Recht, einen Menschen zu tadeln, der die Entscheidung trifft, eine Freude zu genießen, die keine unangenehmen Folgen hat, oder einen, der Schmerz vermeidet, welcher keine daraus resultierende Freude nach sich zieht? Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können. Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlicher Betätigung, außer um Vorteile daraus zu ziehen?</p>
+
+          <p>Aber wer hat irgend ein Recht, einen Menschen zu tadeln, der die <a href="http://codecanyon.net/item/live-search-searchengine-for-your-website/86875">Entscheidung</a> trifft, eine Freude zu genießen, die keine unangenehmen Folgen hat, oder einen, der Schmerz vermeidet, welcher keine daraus resultierende Freude nach sich zieht? Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können. Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlicher Betätigung, außer um Vorteile daraus zu ziehen? Aber wer hat irgend ein Recht, einen Menschen zu tadeln, der die Entscheidung trifft, eine Freude zu genießen, die keine unangenehmen Folgen hat, oder einen, der Schmerz vermeidet, welcher keine daraus resultierende Freude nach sich zieht?</p>
+
+          <p>Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können. Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlicher Betätigung, außer um Vorteile daraus zu ziehen? Aber wer hat irgend ein Recht, einen Menschen zu tadeln, der die Entscheidung trifft, eine Freude zu genießen, die keine unangenehmen Folgen hat, oder einen, der Schmerz vermeidet, welcher keine daraus resultierende Freude nach sich zieht? Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können. Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlicher Betätigung, außer um Vorteile daraus zu ziehen?</p>
+
+          <p>Aber wer hat irgend ein Recht, einen Menschen zu tadeln, der die Entscheidung trifft, eine Freude zu genießen, die keine unangenehmen Folgen hat, oder einen, der Schmerz vermeidet, welcher keine daraus resultierende Freude nach sich zieht? Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können. Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlicher Betätigung, außer um Vorteile daraus zu ziehen? Aber wer hat irgend ein Recht, einen Menschen zu tadeln, der die Entscheidung trifft, eine Freude zu genießen, die keine unangenehmen Folgen hat, oder einen, der Schmerz vermeidet, welcher keine daraus resultierende Freude nach sich zieht? Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können. Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlicher Betätigung, außer um Vorteile daraus zu ziehen? Aber wer hat irgend ein Recht, einen Menschen zu tadeln, der die Entscheidung trifft, eine Freude zu genießen, die keine unangenehmen Folgen hat, oder einen, der Schmerz vermeidet, welcher keine daraus resultierende Freude nach sich zieht? Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können. Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlicher Betätigung, außer um Vorteile daraus zu</p>
+</div>
+
+        </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+
+    </div>
+
+
+  </body>
+</html>

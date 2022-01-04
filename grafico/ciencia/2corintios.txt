@@ -1,0 +1,7 @@
+<ol>
+<!--webbot bot="Include" U-Include="sci.html" TAG="BODY" startspan -->
+
+<p></p><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Como a serpente enganou Eva com sua astúcia", </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    Paulo acreditava na história boba da cobra falante em </font></font><span="../gen/3.html#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gênesis 3</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font></font><span="11.html#3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">11: 3</font></font></a>
+
+<!--webbot bot="Include" i-checksum="5527" endspan --></li></ol>
