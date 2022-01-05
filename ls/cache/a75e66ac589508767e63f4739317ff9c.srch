@@ -1,0 +1,12 @@
+<?php
+$searchresults[] = array("url" => "http://localhost/novoblog/religioes.php",
+            "title" => "CeuVago  Religiões",
+            "isPDF" => "0",
+            "host" => "localhost",
+            "content" => "... religiosa que se originou na india chamado de San?tana Dharma... Budísmo 8 Views Verdades do <strong class=\"BShighlight\">Buda</strong>, a meta do budismo é a superação do sofrimento (dukkha) causado pelo desejo e pela ignorância... ? #myBtn { display: none; /* Hidden by default */ position:...");
+$searchresults[] = array("url" => "http://localhost/novoblog/biblia.php",
+            "title" => "CeuVago  Bíblia",
+            "isPDF" => "0",
+            "host" => "localhost",
+            "content" => "... religiosa que se originou na india chamado de San?tana Dharma... Budísmo 8 Views Verdades do <strong class=\"BShighlight\">Buda</strong>, a meta do budismo é a superação do sofrimento (dukkha) causado pelo desejo e pela ignorância... ? #myBtn { display: none; /* Hidden by default */ position:...");
+?>

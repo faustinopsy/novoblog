@@ -15,7 +15,7 @@ class LiveSearch {
   // var $baseurl = "http://www.yoursite.com/aSubDirectory/";
 
   //Serverpath of your baseurl - including trailing slash (something like /users/mac/www/envato.homac.at/htdocs/demos/LiveSearch/) ... ONLY necessary for thumbnail creation
-  var $basepath = "C:/wamp64/www/novoblog/";
+  var $basepath = "C:/wamp64/www/novoblog/tags/";
 
   //disable indexing of paths above basurl path
   //makes only sense when you are using a subdirectory below your root of the website and only like to stay there

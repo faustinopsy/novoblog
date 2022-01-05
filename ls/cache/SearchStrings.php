@@ -1,10 +1,7 @@
 <?php
-$q["bíblia"] = 2;
-$q["jesus existiu?"] = 4;
-$q["isamismo"] = 8;
-$q["deuses"] = 2;
-$q["buda"] = 6;
-$q["budismo"] = 12;
-$q["sânscrito"] = 1;
-$q["sexo"] = 1;
+$q["bíblia"] = 1;
+$q["jesus existiu?"] = 1;
+$q["jesus"] = 1;
+$q["osiris"] = 1;
+$q["buda"] = 1;
 ?>
